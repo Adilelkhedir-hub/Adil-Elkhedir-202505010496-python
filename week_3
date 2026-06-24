@@ -1,1 +1,61 @@
+Inputs
 
+1\Quiz 1 mark
+2\Quiz 2 mark
+3\Quiz 3 mark
+4\Choice (Y/N)
+
+Process
+
+User enters three quiz marks.
+Program calculates the average.
+Program checks if average is 50 or above.
+Program displays Pass or Fail.
+Program asks whether to continue.
+
+Outputs
+
+Average mark
+Pass or Fail
+Program Ended
+Pseudocode
+
+Start
+
+Set choice = "y"
+
+While choice == "y"
+    Input quiz1
+    Input quiz2
+    Input quiz3
+
+    average = (quiz1 + quiz2 + quiz3) / 3
+
+    If average >= 50
+        Display Pass
+    Else
+        Display Fail
+
+    Input choice
+End While
+
+Display Program Ended
+End
+Algorithm Structure
+
+Sequence
+
+Input marks
+Calculate average
+Display result
+
+Selection
+
+If average >= 50
+    Pass
+Else
+    Fail
+
+Iteration
+
+While choice == "y"
