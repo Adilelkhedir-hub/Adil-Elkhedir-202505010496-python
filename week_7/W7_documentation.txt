@@ -1,0 +1,23 @@
+WEEK 7 DOCUMENTATION
+
+1. Bug Found
+The program did not check if the price or quantity was invalid.
+
+2. Fix
+I added input validation.
+If the price is less than or equal to 0, the program returns "invalid price".
+If the quantity is less than or equal to 0, the program returns "invalid quantity".
+
+3. Testing
+I used pytest to test the program.
+
+Test Cases:
+- Total = 20
+- Total = 30
+- Total = 100
+- Total = 10
+- Invalid price
+- Invalid quantity
+
+Result:
+All tests passed successfully.
